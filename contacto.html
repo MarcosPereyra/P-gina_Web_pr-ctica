@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">         
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">                            
+        <title>César Vallejo - Contacto</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="icon" type="image/png" href="imágenes/logo.png">
+    </head>
+   <body>
+        <header id="header">              
+            <div id="indice">
+                <div id="logo_titulo">
+                    <a href="index.html">
+                        <img id="logo" src="imágenes/logo.png" alt="logo_página">   
+                    </a>
+                    <h1>César Vallejo y su obra</h1>
+                </div>
+                <nav id="botones">
+                    <ul>
+                        <li><a href="index_2.html">Biografía</a></li>   
+                        <li><a href="su_obra.html">Obra</a></li>   
+                        <li><a href="poemas_seleccionados.html">Poemas seleccionados</a></li>   
+                        <li><a href="videos_referencia.html">Videos</a></li>   
+                        <li><a href="#">Contacto</a></li>   
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="main">
+            <div id="contenido">
+                <section>
+                    <h3>Contacto</i></h3>    
+                    <div>
+                        <hr>
+                        <p>Para más información sobre otros poetas, puede ingresar sus datos, y luego le enviaremos las novedades.</p>
+                    </div>
+                    <div>
+                        <form id="contacto" method="POST" action="#" onsubmit="confirmarEnvio()">
+                            <input type="text" id="nombreIngresado" placeholder="Nombre" pattern="[A-Za-z]+" minlength="3" title="No válido" required>
+                            <input type="text" id="apellidoIngresado" placeholder="Apellido" pattern="[A-Za-z]+" minlength="3" title="No válido" required>
+                            <input type="email" id="emailIngresado" placeholder="Mail" title="No válido" required>
+                            <input type="text" id="telefonoIngresado" placeholder="Teléfono" pattern="[0-9]+" min="9" title="No válido">
+                            <label>Comentarios:</label>
+                            <textarea id="consulta" rows="10"></textarea>
+                            <input type="submit" id="submit" value="Enviar">
+                        </form>
+                    </div>
+                    <hr>
+                </section>
+            </div>       
+        </main>
+            <footer id="footer">
+                <p>Página diseñada por Marcos Pereyra Falak (2021)</p><br>
+                <p><strong>Mail de contacto: </strong></p>
+                <p><img id="logoMail" src="imágenes/email_logo.jpg"> marcospereyra.1807@gmail.com</p>
+            </footer> 
+        <script type="text/javascript" src="js/js_contacto.js"></script>
+   </body>
+</html>

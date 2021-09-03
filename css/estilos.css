@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* general */
+html{
+    width: 100%;                  
+    background-color: #FDD5D5;   
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+header, section{
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 10px #999;
+    height: 100%;
+}
+h1{
+    font-size: 25px ;
+    color: rgb(216, 49, 49);
+    padding-right: 7px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* cabecera */
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-top: -8px;
+    margin-left: -10px;
+    float:left; 
+}
+#logo_titulo{
+    background-color: black;
+    padding:5px;
+    padding-top:3px;
+    height: 35px;
+    width:auto;
+    margin:0;
+}
+#logo_titulo a{
+    display: inline;
+    padding: 0px;
+}
+
+#logo_titulo h1{
+    display: inline;    
+}
+#header{
+    font-size: 17px;
+    background-color:black;
+    height: 50px;
+    width: 100%;
+}
+#header a{
+    text-decoration: none;
+    color:black;
+} 
+#botones ul{
+    margin:0;
+    margin-left: 10px;
+    padding:0;
+    list-style: none;
+}
+#botones li{
+    height: 50px;
+    margin: 0;
+    padding-right:0;
+}
+#botones{
+    background-color: grey;
+}
+#botones ul li{
+    display: inline-block;
+}
+#botones ul li a{
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 20px;
+    border-left: solid black;
+    border-width: 1px;
+    margin-top: 7px;
+    margin-left: -5px;
+}
+#botones ul li a:hover{
+    background-color: rgba(73, 72, 72, 0.247);   
+    transition: all 0.4s linear;
+}
+#indice{ 
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+    flex-wrap: wrap;
+    height: 50px;
+    margin:0;
+}
+
+/* cuerpo de página */
+#main{
+    padding-top: 20px;   
+}
+h3{
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-size: 27px;
+    text-align: center;
+    height: 30px;
+}
+p{
+    font-size:18px;
+    padding-left: 30px;
+    text-align: justify;
+}
+#parrafo_con_foto p{
+    clear:left;
+    display: block;
+}
+#contenido{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:0 auto;   
+}
+#parrafo_con_foto img{
+    width: 260px;
+    border: solid black;
+    border-width: 1px;
+    float:right;
+    margin:15px;
+    border-radius: 3px 3px;
+
+}
+#footer{
+    background-color:gray;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+#footer p{
+    text-align: center;
+    font-size: 16px;
+}
+#logoMail{
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+/* tapas de libros */
+#img_heraldos, #img_trilce, #img_poemas_humanos,#img_españa{
+    width:20%;
+    text-align: center;
+}
+#tapas_libros{
+    text-align: center;
+}
+#tapas_libros p{
+    text-align: center;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+/* poemas seleccionados */
+#cambiarFondo{
+    margin-top: 0px;
+    padding-top: 15px;
+}
+#poemas_seleccionados h4{
+    padding-left: 50%;
+    font-size: 22px;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+#poemas_seleccionados p{
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 40%;
+}
+#botonFondo{
+    display:block;
+    font-size: 14px;
+    padding: 4px 4px;
+    background-color: rgb(179, 179, 179);
+}
+#recitado{
+    font-size: 15px;
+    padding: 4px 4px;
+    background-color: rgb(179, 179, 179);
+}
+
+/* videos de YouTube */
+.videos{
+    text-align: center;
+    display:block;
+    width:100%;
+}
+.videos p{
+    text-align: center;
+    font-size: 22px;
+}
+
+/* contacto */
+#contacto #nombreIngresado, #apellidoIngresado, #emailIngresado, #telefonoIngresado{
+    display: block;
+    margin-left:10%;
+    padding:3px;
+    margin:35px;
+    margin-left: 80px;
+}
+#emailIngresado{
+    display: block;
+    width: 270px;
+}
+#contacto label{
+    display: block;
+    margin-left: 88px;
+}
+#contacto #consulta{
+    display: block;
+    margin:10px;
+    margin-left: 80px;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contacto #submit{
+    display: block;
+    margin-top: 40px;
+    margin-left: 50%;
+}
+
+
+/* FINAL DE ESTILOS */
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 600px) and (max-width:1023px){
+/* general */
+body{
+    width: 600px;
+}
+h1{
+    font-size: 18px;    
+    padding-right: 0px;
+}
+header, section{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* cabecera */
+#header{
+    font-size: 10px;
+}
+#botones ul{
+    margin-left: 10px; 
+}
+#botones li, #indice, #header{
+    height: 45px;
+}
+#botones ul li a{
+    font-size: 12px;
+}
+#logo_titulo{
+    display: inline;    
+    padding-top: 5px;
+} 
+#logo_titulo a img{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding-top: 0px;
+}
+
+/* cuerpo de página */
+#main{
+    padding-top: 0px;
+}
+h3{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p{
+    font-size:15px;
+    padding-left: 7px;
+}
+#contenido{
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+#parrafo_con_foto img{
+    width: 200px;
+    margin:10px;
+}
+#footer p{
+    font-size: 13px;
+}
+#logoMail{
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* tapas de libros */
+#img_heraldos, #img_trilce, #img_poemas_humanos,#img_españa{
+    width:40%;
+}
+#tapas_libros p{
+    padding-top:0px;
+    font-size: 20px;
+}
+
+/* poemas seleccionados */
+#poemas_seleccionados h4{
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+#poemas_seleccionados p{
+    font-size: 15px;
+    padding-left: 35%;
+}
+#botonFondo{
+    font-size: 14px;
+}
+#recitado{
+    font-size: 13px;
+}
+
+/* videos de YouTube */
+.videos{
+    margin-bottom: 15px;
+}
+.videos p{
+    font-size: 20px;
+}
+.videos iframe{
+    width: 50%;
+    height: 50%;
+}
+
+/* contacto */
+#contacto{
+    width: 200px;
+}
+#contacto #nombreIngresado, #apellidoIngresado, #emailIngresado{
+    padding:2px;
+    margin:25px;
+    font-size: 12px;
+}
+#emailIngresado{
+    width: 220px;
+}
+#contacto label{
+    margin-left: 88px;
+}
+#contacto #consulta{
+    margin:10px;
+    margin-left: 40px;
+    width: 300px;
+}
+#contacto #submit{
+    margin-top: 40px;
+    margin-left: 50%;
+}
+}
+/* RESPONSIVE 600px - 1024px */
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 321px) and (max-width: 599px){
+/* general */
+body{
+    width: 321px;
+}
+h1{
+    font-size: 23px;
+    padding-right: 0px;    
+}
+header, section{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* cabecera */
+#botones ul{
+    margin-left: 20px; 
+    display: block;
+}
+#botones{
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+#botones ul li a{
+    font-size: 12px;
+    padding: 5px 5px;
+}
+#botones ul li {
+    height: 40px;
+}
+#logo_titulo a img{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding-top: 2px;
+}
+
+/* cuerpo de página */
+#main{
+    padding-top: 40px;
+}
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    font-size:13px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+#contenido{
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+#parrafo_con_foto img{
+    width: 160px;
+}
+#footer{
+    margin-top: 5px;
+}
+#footer p{
+    font-size: 13px;
+}
+#logoMail{
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* tapas de libros */
+#img_heraldos, #img_trilce, #img_poemas_humanos,#img_españa{
+    width:35%;
+}
+#tapas_libros p{
+    font-size: 17px;
+}
+
+/* poemas seleccionados */
+#poemas_seleccionados h4{
+    font-size: 17px;
+    margin-top:13px;
+    margin-bottom:10px;
+    padding-left: 20%;
+}
+#poemas_seleccionados p{
+    font-size: 13px;
+    padding-left: 13%;
+}
+#botonFondo{
+    font-size: 10px;
+}
+#recitado{
+    font-size: 10px;
+    padding-left: 0px;
+    width: 290px;
+}
+
+/* videos de YouTube */
+.videos{
+    margin-bottom: 13px;
+}
+.videos p{
+    font-size: 12px;
+    margin-top:15px;
+    margin-bottom:8px;
+}
+.videos iframe{
+    height: 50%;
+    width: 70%;
+}
+
+/* contacto */
+#contacto #nombreIngresado, #apellidoIngresado, #emailIngresado, #telefonoIngresado{
+    padding:1px;
+    margin:18px;
+    font-size: 10px;
+}
+#emailIngresado{
+    width: 160px;
+}
+#contacto label{
+    margin-left: 110px;
+}
+#contacto #consulta{
+    margin:10px;
+    margin-left: 20px;
+    width: 250px;
+}
+#contacto #submit{
+    margin-top: 40px;
+    margin-left: 120px;
+}
+}
+/* RESPONSIVE 321px - 599px */
+
+
+
+
+
+
+
+
+@media all and (max-width: 320px){
+/* general */
+body{
+    width: 310px;
+}
+h1{
+    font-size: 25px;    
+}
+header, section{
+    width: 280px;
+}
+
+/* cabecera */
+#header{
+    font-size: 20px;
+}
+#botones{
+    width: 100%;
+    text-align: center;
+}
+#botones li, #indice, #header{
+    height: 15px;
+    display: inline;
+    width: 100%;
+}
+#botones ul{
+    height: 162px;   
+}
+#botones ul li a{
+    display: block;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top:3px;
+}
+#botones ul li{
+    padding: 0px;
+    margin: 2px;
+    height: 27px;
+}
+#logo_titulo a img{
+    width: 50px;
+    height: 50px;
+    padding-top: 2px;
+}
+
+/* cuerpo de página */
+#main{
+    padding-top: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+h2{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+p{
+    font-size:12px;
+    padding-left: 2px;
+}
+#contenido{
+    padding-left: 11px;
+    padding-right: 11px;  
+}
+#parrafo_con_foto img{
+    width: 140px;
+    margin-right:0px;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+#footer p{
+    font-size: 11px;
+}
+#logoMail{
+    width: 15px;
+}
+
+/* tapas de libros */
+#img_heraldos, #img_trilce, #img_poemas_humanos,#img_españa{
+    width:50%;
+}
+#tapas_libros p{
+    padding-top:0px;
+    font-size: 15px;
+}
+
+/* poemas seleccionados */
+#poemas_seleccionados h4{
+    font-size: 15px;
+    margin-top:15px;
+    margin-bottom:8px;
+    padding-left: 0%;
+    padding-left: 50px;
+    text-align: left;
+}
+#poemas_seleccionados p{
+    font-size: 12px;
+    padding-left: 5%;
+}
+#recitado{
+    font-size: 10px;
+}
+
+/* videos de YouTube */
+.videos{
+    margin-bottom: 10px;
+}
+.videos p{
+    font-size: 11px;
+}
+.videos iframe{
+    width:80%;
+    height: 50%;
+}
+
+/* contacto */
+#contacto{
+    margin-left: 10px;
+}
+#contacto #nombreIngresado, #apellidoIngresado, #emailIngresado, #telefonoIngresado{
+    padding:0px;
+    margin:17px;
+    font-size: 10px;
+    margin-left: 50px;
+}
+#emailIngresado{
+    width: 160px;
+}
+#contacto label{
+    margin-left: 0px;
+}
+#contacto #consulta{
+    margin:5px;
+    margin-left: 30px;
+    width: 200px;
+}
+#contacto #submit{
+    margin-left: 100px;
+}
+}
+/* RESPONSIVE 320px */
